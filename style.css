@@ -137,3 +137,44 @@ nav .menu-bar img{
     margin-top: 50px;
   }
 }
+
+@media screen and (max-width: 480px) {
+  .container{
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  .container nav{
+    display: inline-block;
+  }
+
+  nav ul{
+    display: none;
+  }
+
+  nav .logo img{
+    width: 100px;
+  }
+
+  .content h1{
+    margin-top: 80px;
+    font-size: 38px;
+    line-height: 45px;
+  }
+
+  .content button{
+    margin-top: 40px;
+  }
+
+  .featured-img img:first-child{
+    right: 40px;
+    top: 440px;
+    width: 300px;
+  }
+
+  .featured-img img:last-child{
+    right: 210px;
+    bottom: 125px;
+    width: 130px;
+  }
+}
